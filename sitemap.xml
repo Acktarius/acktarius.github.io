@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>http://home.sebchaps/</loc>
+	<lastmod>2022-06-09</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://home.sebchaps/about.html</loc>
+	<lastmod>2022-06-09</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://home.sebchaps/crypto.html</loc>
+	<lastmod>2022-06-09</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9627.jpg</image:loc>
+	<image:title>img_9627</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9821.jpg</image:loc>
+	<image:title>img_9807</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/sushi_5.jpeg</image:loc>
+	<image:title>sushi_5.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://home.sebchaps/miningrigbuild.html</loc>
+	<lastmod>2022-06-09</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9807.jpg</image:loc>
+	<image:title>img_9807</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9811.jpg</image:loc>
+	<image:title>img_9811</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9813-2.jpg</image:loc>
+	<image:title>img_9813 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9815-2.jpg</image:loc>
+	<image:title>img_9815 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9826.jpg</image:loc>
+	<image:title>img_9826</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9829.jpg</image:loc>
+	<image:title>img_9829</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9828.jpg</image:loc>
+	<image:title>img_9828</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9822.jpg</image:loc>
+	<image:title>img_9822</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9821.jpg</image:loc>
+	<image:title>img_9821</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/hiveos_screenshot.jpeg</image:loc>
+	<image:title>hiveos_screenshot.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/img_9809.jpg</image:loc>
+	<image:title>img_9809</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://home.sebchaps/swap-ccx.html</loc>
+	<lastmod>2022-06-09</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/swapCCX_001.jpeg</image:loc>
+	<image:title>img_9807</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/swapCCX_002.jpeg</image:loc>
+	<image:title>img_9811</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/swapCCX_003.jpeg</image:loc>
+	<image:title>img_9813 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/swapCCX_004.jpeg</image:loc>
+	<image:title>img_9815 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/swapCCX_005.jpeg</image:loc>
+	<image:title>img_9826</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/swapCCX_006.jpeg</image:loc>
+	<image:title>img_9829</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/swapCCX_007.jpeg</image:loc>
+	<image:title>img_9828</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://home.sebchaps/ledger-apollo.html</loc>
+	<lastmod>2022-06-09</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo001.jpg</image:loc>
+	<image:title>Ledeger apollo001</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo002.jpg</image:loc>
+	<image:title>Ledeger apollo002</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo003.jpg</image:loc>
+	<image:title>img_9807</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo004.jpg</image:loc>
+	<image:title>img_9811</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo005.jpg</image:loc>
+	<image:title>img_9813 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo006.jpg</image:loc>
+	<image:title>img_9815 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo007.jpg</image:loc>
+	<image:title>img_9826</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo008.jpg</image:loc>
+	<image:title>img_9829</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo009.jpg</image:loc>
+	<image:title>img_9828</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo010.jpg</image:loc>
+	<image:title>Ledeger apollo010</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo011.jpg</image:loc>
+	<image:title>Ledeger apollo011</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo012.jpg</image:loc>
+	<image:title>Ledeger apollo012</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo013.jpg</image:loc>
+	<image:title>Ledeger apollo013</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo014.jpg</image:loc>
+	<image:title>Ledeger apollo014</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo015.jpg</image:loc>
+	<image:title>Ledeger apollo015</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo016.jpg</image:loc>
+	<image:title>Ledeger apollo016</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo017.jpeg</image:loc>
+	<image:title>Ledeger apollo017.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo018.jpeg</image:loc>
+	<image:title>Ledeger apollo018.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo019.jpeg</image:loc>
+	<image:title>Ledeger apollo019.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo020.jpeg</image:loc>
+	<image:title>Ledeger apollo020.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo021.jpg</image:loc>
+	<image:title>Ledeger apollo021</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo022.jpeg</image:loc>
+	<image:title>Ledeger apollo022.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo023.jpeg</image:loc>
+	<image:title>Ledeger apollo023.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/Ledeger-apollo024.jpeg</image:loc>
+	<image:title>Ledeger apollo024.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://home.sebchaps/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+</urlset>
