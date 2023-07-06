@@ -1,0 +1,661 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<link rel="canonical" href="http://acktarius.cryptoandmining/ledger-apollo.html">
+	<meta name="robots" content="index, follow">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2531">
+	<link rel="stylesheet" type="text/css" href="style.css?2022">
+	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+	
+    <title>Ledger-Apollo</title>
+
+
+    
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+    
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+<!-- Preloader END -->
+
+
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc bloc-bg-texture texture-darken bgc-dim-gray d-bloc " id="bloc-0">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col">
+				<nav class="navbar navbar-light row navbar-expand-md flex-column" role="navigation">
+					<a class="navbar-brand mx-auto link-style ltc-baby-blue-eyes" href="index.html">Acktarius.cryptoandmining</a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0" data-toggle="collapse" data-target=".navbar-28044" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse navbar-28044">
+						<ul class="site-navigation nav navbar-nav mx-auto justify-content-center">
+							<li class="nav-item">
+								<a href="index.html" class="nav-link ltc-deep-saffron">Home</a>
+							</li>
+							<li class="nav-item">
+								<a href="about.html" class="nav-link ltc-deep-saffron">About</a>
+							</li>
+						</ul>
+					</div>
+					<div class="navbar-content-area d-block col-12 col-md-3 col-lg-2">
+						<div class="row">
+							<div class="align-self-center col-4 text-left">
+							</div>
+							<div class="align-self-center col-4 text-center">
+								<a href="https://twitter.com/xchaps" data-target="_blank" target="_blank"><span class="fab fa-twitter float-md-none icon-md icon-baby-blue-eyes"></span></a>
+							</div>
+							<div class="align-self-center col-4 text-right">
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-1 -->
+<div class="bloc tc-black l-bloc" id="bloc-1">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-12">
+						<div class="row voffset">
+							<div class="col-lg-3">
+								<div class="text-center">
+									<span class="icon-round icon-md fab fa-btc icon-black"></span>
+								</div>
+							</div>
+							<div class="col">
+								<h2 class="text-center text-lg-left mg-sm h5-crypto-mining-style">
+									Crypto Mining
+								</h2>
+								<h3 class="text-center text-lg-left h3-style">
+									Connect Ledger Live to FutureBit Apollo BTC node
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h5 class="mg-md">
+					Connect your wallet to your own BTC node, allows you to improve your privacy and independency.<br>
+				</h5>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+<!-- bloc-33 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-33">
+	<div class="container bloc-lg bloc-no-padding-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo001.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo001" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo002.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo002" />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-33 END -->
+
+<!-- bloc-34 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-34">
+	<div class="container bloc-lg bloc-md-lg">
+		<div class="row">
+			<div class="col text-md-left text-center">
+				<h4 class="mg-md text-lg-center h4-11-style">
+					<strong>Disclaimer</strong>:<br>this tutorial is delivered “as is” and I deny any and all liability for any damages arising out of using this tutorial.<br>
+				</h4>
+				<h4 class="mg-md">
+					<i>(Ledger Live being used on a Mac computer connected on the same network as the node, not tried yet on a PC)</i>
+				</h4>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-34 END -->
+
+<!-- bloc-20 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-20">
+	<div class="container bloc-lg bloc-no-padding-lg">
+		<div class="row">
+			<div class="col text-md-left text-center">
+				<h3 class="mg-md">
+					1. Downgrade Ledger Live
+				</h3>
+				<p class="p-53-style">
+					For some reason, last version of Ledger Live is not working, you have to downgrade to version 2.33.1 , that you can find on repository :<br><br><a href="https://github.com/LedgerHQ/ledger-live-desktop/releases/tag/v2.33.1" data-target="_blank" target="_blank">https://github.com/LedgerHQ/ledger-live-desktop/releases/tag/v2.33.1</a><br>
+				</p>
+				<h3 class="mg-md">
+					2. Download SatStack
+				</h3>
+				<p class="p-bloc-20-style">
+					SatStack bridge your wallet to your node, you will only run it at step #4 of the connection and it might take a while, since it looks for your transactions through the entire blockchain.<br><br><a href="https://github.com/LedgerHQ/satstack" data-target="_blank" target="_blank">https://github.com/LedgerHQ/satstack</a><br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-20 END -->
+
+<!-- bloc-36 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-36">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col text-md-left text-center">
+				<h3 class="mg-md">
+					3. Modify Bitcoin.conf on your node
+				</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-36 END -->
+
+<!-- bloc-6 -->
+<div class="bloc bgc-black-2 tc-gray-htmlcss-gray d-bloc" id="bloc-6">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo003.jpg" class="img-fluid mx-auto d-block lazyload" alt="img_9807" />
+			</div>
+			<div class="col">
+				<p class="p-13-style">
+					<br><br>Open Terminal<br>(Leave it open so you can drag «&nbsp;node&nbsp;» folder in the very soon)
+				</p>
+				<p class="p-14-style">
+					<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-6 END -->
+
+<!-- bloc-7 -->
+<div class="bloc tc-gray-htmlcss-gray bgc-black-2 d-bloc" id="bloc-7">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo004.jpg" class="img-fluid mx-auto d-block lazyload" alt="img_9811" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-16-style">
+					<br><br>Open File Finder<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-7 END -->
+
+<!-- bloc-8 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-8">
+	<div class="container bloc-lg bloc-md-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo005.jpg" class="img-fluid mx-auto d-block lazyload" alt="img_9813 2" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-17-style">
+					<br><br>Select Other Locations<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-8 END -->
+
+<!-- bloc-9 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-9">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo006.jpg" class="img-fluid mx-auto d-block lazyload" alt="img_9815 2" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-18-style">
+					<br><br>Select Computer<br>
+				</p>
+				<p class="p-19-style">
+					<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-9 END -->
+
+<!-- bloc-10 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-10">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo007.jpg" class="img-fluid mx-auto d-block lazyload" alt="img_9826" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-20-style">
+					<br><br>Select “opt” folder<br>
+				</p>
+				<p class="p-21-style">
+					<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-10 END -->
+
+<!-- bloc-11 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-11">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo008.jpg" class="img-fluid mx-auto d-block lazyload" alt="img_9829" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-22-style">
+					<br><br>Select “apolloapi” folder<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-11 END -->
+
+<!-- bloc-12 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-12">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo009.jpg" class="img-fluid mx-auto d-block lazyload" alt="img_9828" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-23-style">
+					<br><br>Select “backend” folder<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-12 END -->
+
+<!-- bloc-44 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-44">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo010.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo010" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-65-style">
+					you will drag “node" folder in the terminal window after typing “cd"
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-44 END -->
+
+<!-- bloc-45 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-45">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center col-lg-5">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo011.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo011" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-66-style">
+					<br><br>type “cd ” on the command line and drop the “node” folder path, then valid<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-45 END -->
+
+<!-- bloc-46 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-46">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col text-md-left text-center">
+				<p class="p-67-style text-lg-center">
+					Now we will modify bitcoin.conf file, as it is protected, it has to be open with sudo command
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-46 END -->
+
+<!-- bloc-47 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-47">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo012.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo012" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-68-style">
+					<br><br>type: “sudo nano bitcoin.conf” and valid<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-47 END -->
+
+<!-- bloc-48 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-48">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo013.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo013" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-69-style">
+					note the value of:<br>rpcuser<br>rpcpassword<br>(you&rsquo;ll need it in Ledger Live to connect)<br><br>Add the lines:<br><br>rpcbind=127.0.0.1<br>rpcbind= <i>address IP of your node found in the right tab of the FutureBit page</i><br>rpcallowip=127.0.0.1<br>rpcallowip= <i>adresse IP of the computer from where Ledger Live will be running on the same network</i><br>txindex=1<br><br>maxconnections= you can increase above 32<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-48 END -->
+
+<!-- bloc-49 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-49">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo014.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo014" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-70-style">
+					Exit “Ctrl + X” and Save by typing “Y”
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-49 END -->
+
+<!-- bloc-50 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-50">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo015.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo015" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-71-style">
+					Valid (return key)
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-50 END -->
+
+<!-- bloc-51 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-51">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo016.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo016" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-72-style">
+					<br><br>Reboot so the Bitcoin.conf modifications can be taken into account.<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-51 END -->
+
+<!-- bloc-52 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-52">
+	<div class="container bloc-lg bloc-no-padding-lg">
+		<div class="row">
+			<div class="col text-md-left text-center">
+				<p class="p-73-style">
+					Once Node is up and running with decent amount of connections, make sure port 8333, 8332, on your modern are open for the associated IP address.
+				</p>
+				<h3 class="mg-md">
+					4. Connect Ledger Live to Node
+				</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-52 END -->
+
+<!-- bloc-53 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-53">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo017.jpeg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo017.jpeg" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-74-style">
+					<br><br>Open Ledger Live version 2.33.1<br><br>click on Experimental Fonctions under Settings<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-53 END -->
+
+<!-- bloc-54 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-54">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo018.jpeg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo018.jpeg" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-75-style">
+					<br>Scroll down and click on connect<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-54 END -->
+
+<!-- bloc-55 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-55">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo019.jpeg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo019.jpeg" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-76-style">
+					<br><br>Fill with your node parameters obtain from previous step<br><br>your node IP address:8332<br><br>value of RPC user<br><br>value of RPC password<br><br>and click Continue<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-55 END -->
+
+<!-- bloc-56 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-56">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo020.jpeg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo020.jpeg" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-77-style">
+					<br><br>Step #1 : test of connectivity<br><br>Step#2 : Select Bitcoin Account<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-56 END -->
+
+<!-- bloc-57 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-57">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo021.jpg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo021" /><img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo022.jpeg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo022.jpeg" /><img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo023.jpeg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo023.jpeg" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-78-style">
+					<br><br>Step#3: have your Ledger nano connected with Bitcoin app open<br>
+				</p>
+				<p class="p-79-style">
+					<br><br><br><br><br><br><br><br><br><br><br>Step#4 : Run the executable file dowloaded SatStack<br><br>BE PATIENT ! don&rsquo;t do anything until the process is complete, it can take hours !!!<br><br>And click on Continue<br>
+				</p>
+				<p class="p-80-style">
+					<br><br><br><br><br><br><br><br>you will now notice a data symbol beside your Bitcoin account<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-57 END -->
+
+<!-- bloc-58 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-58">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-6 text-md-left text-center">
+				<img src="img/lazyload-ph.png" data-src="img/Ledeger-apollo024.jpeg" class="img-fluid mx-auto d-block lazyload" alt="Ledeger apollo024.jpeg" />
+			</div>
+			<div class="col-md-6 text-md-left text-center">
+				<p class="p-81-style">
+					<br>If you go back to settings you&rsquo;ll notice the status is now “Ready”<br>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-58 END -->
+
+<!-- bloc-59 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-59">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="col text-md-left text-center">
+				<p class="p-82-style">
+					You can now even upgrade to the latest version of LedgerLive, make sure you keep SatStack running in the background.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-59 END -->
+
+<!-- bloc-16 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-16">
+	<div class="container bloc-lg bloc-md-lg">
+		<div class="row">
+			<div class="col text-md-left text-center">
+				<h1 class="mg-md">
+					ET VOILÀ ! you gained some privacy and indepedency !
+				</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-16 END -->
+
+<!-- bloc-31 -->
+<div class="bloc scroll-fx-left-in l-bloc" id="bloc-31">
+	<div class="container bloc-lg bloc-md-lg">
+		<div class="row">
+			<div class="col text-md-left text-center">
+				<h5 class="mg-md mx-auto d-block">
+					if you like this post, you can use this link to donate some $CCX &nbsp;: <a href="https://href.li/?https://conceal.cloud/payment/?address=ccx7HGYwA5EQNqdwRr3QR4hfk28ejNs419x8fevRFHW5gE7jtwPTaA7XtznxBsofFP8JB32YYBmtwLdoEirjAbYo4DBZgBW9WF" data-target="_blank" target="_blank">DONATE</a>
+				</h5>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-31 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- bloc-93 -->
+<div class="bloc bgc-black-2 d-bloc" id="bloc-93">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<h4 class="mg-md text-sm-left text-center tc-deep-saffron">
+					About
+				</h4><a href="about.html" class="a-btn a-block footer-link">The Team</a>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<h4 class="mg-md text-sm-left text-center tc-deep-saffron">
+					Connect
+				</h4>
+				<div class="row">
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://twitter.com/@xchaps"><span class="fab fa-twitter icon-md icon-baby-blue-eyes"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-93 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Additional JS -->
+<script src="./js/jquery.min.js?8382"></script>
+<script src="./js/bootstrap.bundle.min.js?6344"></script>
+<script src="./js/blocs.min.js?19"></script>
+<script src="./js/lazysizes.min.js" defer></script>
+<script src="./js/scrollFX.js?8706"></script>
+<!-- Additional JS END -->
+
+
+</body>
+</html>
