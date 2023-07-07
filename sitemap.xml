@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>http://acktarius.cryptoandmining/</loc>
-	<lastmod>2023-07-06</lastmod>
+	<lastmod>2023-07-07</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -16,7 +16,7 @@
 </url>
 <url>
 	<loc>http://acktarius.cryptoandmining/about.html</loc>
-	<lastmod>2023-07-06</lastmod>
+	<lastmod>2023-07-07</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -30,7 +30,7 @@
 </url>
 <url>
 	<loc>http://acktarius.cryptoandmining/crypto.html</loc>
-	<lastmod>2023-07-06</lastmod>
+	<lastmod>2023-07-07</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -56,7 +56,7 @@
 </url>
 <url>
 	<loc>http://acktarius.cryptoandmining/miningrigbuild.html</loc>
-	<lastmod>2023-07-06</lastmod>
+	<lastmod>2023-07-07</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -114,7 +114,7 @@
 </url>
 <url>
 	<loc>http://acktarius.cryptoandmining/swap-ccx.html</loc>
-	<lastmod>2023-07-06</lastmod>
+	<lastmod>2023-07-07</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -156,7 +156,7 @@
 </url>
 <url>
 	<loc>http://acktarius.cryptoandmining/ledger-apollo.html</loc>
-	<lastmod>2023-07-06</lastmod>
+	<lastmod>2023-07-07</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -266,7 +266,7 @@
 </url>
 <url>
 	<loc>http://acktarius.cryptoandmining/ccx-box.html</loc>
-	<lastmod>2023-07-06</lastmod>
+	<lastmod>2023-07-07</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
