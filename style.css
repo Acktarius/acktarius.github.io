@@ -482,10 +482,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-bloc-1-style{
 	opacity:1.0;
 }
-.link-style{
-	font-size:2rem;
-	font-family:Helvetica;
-}
 .p-5-style{
 	width:100%;
 }
@@ -698,6 +694,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 575px){
 	.footer-link{
 		text-align:center;
+	}
+	.maintitle{
+		width:80vw;
+		height:3vh;
+		text-align:center;
+		font-weight:300;
+		margin:5px 5px 5px 5px;
+		padding:2px 2px 2px 2px;
 	}
 	
 }
