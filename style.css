@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------------
 	acktarius.cryptoandmining
 	About: A shiny new Blocs website.
-	Author: Sebastien CHAPUIS
+	Author: Acktarius
 	Version: 1.0
 	Built with Blocs
 -----------------------------------------------------------------------------------*/
@@ -242,6 +242,22 @@ button{
 }
 .icon-round.icon-xl,.icon-square.icon-xl,.icon-rounded.icon-xl{
 	min-width: 162px;
+}
+
+/* Colón icon - circular icon with centered text symbol */
+.icon-colon-round{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 92px;
+	height: 92px;
+	padding-top: 12px;
+	line-height: 1;
+	font-size: 52px;
+	font-weight: 400;
+	margin: auto;
+	border: 2px solid transparent;
+	border-radius: 50%;
 }
 
 
@@ -598,8 +614,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Bloc image backgrounds */
 
 .bg-img-0001{
-	background-image:url("img/url(file:///Users/sebastienchapuis/Library/Application%20Support/Blocs%204/tempAssetStorage/ExternalDrives/embedded-blocs-assets/");
-}
+		background-image:url("");
+	}
 
 
 
@@ -689,6 +705,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.text-center{
 	}
 	
+}
+
+/* Footer social link styling */
+.d-bloc .footer-social-link {
+	color: #fafafa !important;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+	display: inline-block;
+}
+.d-bloc .footer-social-link:hover {
+	color: #fff !important;
+}
+.d-bloc .footer-social-link span {
+	color: inherit;
+}
+.d-bloc .footer-social-link svg {
+	display: block;
+	margin: 0 auto;
 }
 
 @media (max-width: 575px){
