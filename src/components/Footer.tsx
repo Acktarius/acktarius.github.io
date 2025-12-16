@@ -42,7 +42,7 @@ function Footer() {
 
           <div className="md:text-right">
             <p className="text-gray-500 text-sm">
-              © 2024 Acktarius.CryptoAndMining
+              © 2025 Acktarius.CryptoAndMining
               <br />
               All rights reserved
             </p>
