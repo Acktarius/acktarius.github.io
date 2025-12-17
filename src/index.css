@@ -27,8 +27,13 @@
   }
 
   .text-glow-blue {
-    text-shadow: 0 0 10px rgba(0, 128, 255, 0.8), 0 0 20px rgba(0, 128, 255, 0.6), 0 0 30px
-      rgba(0, 128, 255, 0.4);
+    text-shadow: 0 0 10px rgba(0, 153, 255, 0.8), 0 0 20px rgba(0, 153, 255, 0.6), 0 0 30px
+      rgba(0, 153, 255, 0.4);
+  }
+
+  .text-glow-fuchsia {
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8), 0 0 20px rgba(255, 0, 255, 0.6), 0 0 30px
+      rgba(255, 0, 255, 0.4);
   }
 
   .box-glow-cyan {
@@ -44,6 +49,11 @@
   .box-glow-green {
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.5), 0 0 40px rgba(0, 255, 0, 0.3), inset 0 0 20px
       rgba(0, 255, 0, 0.1);
+  }
+
+  .box-glow-fuchsia {
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5), 0 0 40px rgba(255, 0, 255, 0.3), inset 0 0 20px
+      rgba(255, 0, 255, 0.1);
   }
 
   .border-glow {

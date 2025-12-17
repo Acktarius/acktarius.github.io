@@ -6,8 +6,9 @@ export default {
         neon: {
           cyan: '#00ffff',
           pink: '#ff00ff',
+          fuchsia: '#ff00ff',
           green: '#00ff00',
-          blue: '#0080ff',
+          blue: '#0099ff',
           orange: '#ff8000',
           purple: '#8000ff',
         },
@@ -34,8 +35,9 @@ export default {
       boxShadow: {
         'neon-cyan': '0 0 20px rgba(0, 255, 255, 0.5)',
         'neon-pink': '0 0 20px rgba(255, 0, 255, 0.5)',
+        'neon-fuchsia': '0 0 20px rgba(255, 0, 255, 0.5)',
         'neon-green': '0 0 20px rgba(0, 255, 0, 0.5)',
-        'neon-blue': '0 0 20px rgba(0, 128, 255, 0.5)',
+        'neon-blue': '0 0 20px rgba(0, 153, 255, 0.5)',
         'neon-orange': '0 0 20px rgba(255, 128, 0, 0.5)',
       },
     },

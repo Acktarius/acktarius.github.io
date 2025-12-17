@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const CONFIG = {
   title: 'Crypto Mining',
-  subtitle: 'How to help you during your crypto journey',
+  subtitle: '"How-to" help you during your crypto journey',
   articles: [
     {
       title: 'CCX-Box, the wrap-up',
@@ -37,7 +37,7 @@ function Crypto() {
       <div className="relative py-16 px-4 bg-gradient-to-b from-gray-900/50 to-transparent">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-6 mb-4">
-            <div className="text-5xl text-neon-orange">₿</div>
+            <div className="text-5xl text-neon-orange">₡</div>
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-neon-cyan text-glow-cyan">
                 {CONFIG.title}

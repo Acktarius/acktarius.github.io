@@ -20,7 +20,7 @@ function SwapCCX() {
       <div className="relative py-16 px-4 bg-gradient-to-b from-gray-900/50 to-transparent">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-6 mb-4">
-            <div className="text-5xl text-neon-orange">₿</div>
+            <div className="text-5xl text-neon-orange">₡</div>
             <div>
               <h2 className="text-2xl text-neon-cyan mb-2">Crypto Mining</h2>
               <h1 className="text-4xl md:text-5xl font-bold text-white text-glow-cyan">

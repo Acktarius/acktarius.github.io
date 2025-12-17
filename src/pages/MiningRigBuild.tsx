@@ -86,7 +86,7 @@ function MiningRigBuild() {
       <div className="relative py-16 px-4 bg-gradient-to-b from-gray-900/50 to-transparent">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-6 mb-4">
-            <div className="text-5xl text-neon-orange">₿</div>
+            <div className="text-5xl text-neon-orange">₡</div>
             <div>
               <h2 className="text-2xl text-neon-cyan mb-2">Crypto Mining</h2>
               <h1 className="text-4xl md:text-5xl font-bold text-white text-glow-cyan">
@@ -103,8 +103,8 @@ function MiningRigBuild() {
           {CONFIG.sections.map((section, index) => (
             <div
               key={section.title}
-              className={`bg-gray-900/50 backdrop-blur-sm border border-neon-cyan/20 rounded-xl overflow-hidden hover:border-neon-orange/40 transition-all ${
-                index % 2 === 0 ? 'box-glow-cyan' : 'box-glow-orange'
+              className={`bg-gray-900/50 backdrop-blur-sm border border-neon-cyan/20 rounded-xl overflow-hidden hover:border-neon-fuchsia/40 transition-all ${
+                index % 2 === 0 ? 'box-glow-cyan' : 'box-glow-fuchsia'
               }`}
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">

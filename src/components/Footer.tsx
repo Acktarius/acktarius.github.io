@@ -18,7 +18,7 @@ function Footer() {
               <Link
                 key={link.path}
                 to={link.path}
-                className="block text-gray-400 hover:text-neon-cyan transition-colors mb-2"
+                className="block text-cyan-400 hover:text-neon-fuchsia hover:text-glow-fuchsia transition-all mb-2"
               >
                 {link.name}
               </Link>

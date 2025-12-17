@@ -22,7 +22,7 @@ function Navigation() {
         <div className="flex items-center justify-between h-20">
           <Link
             to="/"
-            className="text-2xl font-bold text-neon-cyan text-glow-cyan hover:scale-105 transition-transform"
+            className="text-2xl font-bold text-neon-blue text-glow-blue hover:text-neon-blue hover:text-glow-blue hover:scale-105 transition-all"
           >
             {CONFIG.siteName}
           </Link>
@@ -35,7 +35,7 @@ function Navigation() {
                 className={`text-lg transition-all ${
                   location.pathname === item.path
                     ? 'text-neon-orange text-glow-orange'
-                    : 'text-neon-cyan hover:text-neon-orange hover:text-glow-orange'
+                    : 'text-neon-cyan hover:text-neon-fuchsia hover:text-glow-fuchsia'
                 }`}
               >
                 {item.name}
